@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/123176-support-unraides-filebrowser</Support>
   <Project>https://filebrowser.org/</Project>
   <Overview>File Browser - Web based File Browser that provides a file managing interface within a specified directory and it can be used to upload, delete, preview, rename and edit your files. It allows the creation of multiple users and each user can have its own directory.&#xD;
 &#xD;
@@ -17,8 +17,8 @@ Username: admin&#xD;
 Password: admin&#xD;
 &#xD;
 You should be change the password by default.</Overview>
-  <Category>Cloud:Network:Web</Category>
-  <WebUI>http://[IP]:30000/files/</WebUI>
+  <Category>Cloud: Network:Web</Category>
+  <WebUI>http://[IP]:5050/files/</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/UnRAIDES/templates-UnRAID/main/icons/filebrowser-icon.png</Icon>
   <ExtraParams/>
