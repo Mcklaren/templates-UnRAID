@@ -29,7 +29,7 @@ You should be change the password by default.</Overview>
   <DonateLink/>
   <Requires/>
   <Config Name="Data Path" Target="/srv" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/Descargas/</Config>
-  <Config Name="Appdata" Target="/database/" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/filebrowser/</Config>
+  <Config Name="Appdata" Target="/database/" Default="" Mode="rw" Description="" Type="Path" Display="advanced" Required="true" Mask="false">/mnt/user/appdata/filebrowser/</Config>
   <Config Name="HTTP Port" Target="80" Default="30000" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">30000</Config>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Default nobody user of UnRAID" Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Default users group of UnRAID" Type="Variable" Display="advanced" Required="true" Mask="false">100</Config>
