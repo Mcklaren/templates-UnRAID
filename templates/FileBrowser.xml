@@ -18,7 +18,7 @@ Password: admin&#xD;
 &#xD;
 You should be change the password by default.</Overview>
   <Category>Cloud: Network:Web</Category>
-  <WebUI>http://[IP]:5050/files/</WebUI>
+  <WebUI>http://[IP]:[PORT:30000]/files/</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/UnRAIDES/templates-UnRAID/main/icons/filebrowser-icon.png</Icon>
   <ExtraParams/>
