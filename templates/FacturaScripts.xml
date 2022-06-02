@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>FacturaScripts</Name>
+  <Repository>unraides/facturascripts</Repository>
+  <Registry>https://hub.docker.com/r/unraides/facturascripts</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://facturascripts.com/</Project>
+  <Overview>FacturaScripts is an accounting, billing and CRM program with it you can manage the day to day of your company: invoices, receipts, expenses, budgets, orders, delivery notes, inventory...&#xD;
+And it can be extended and new functions can be added thanks to the plugin catalog.&#xD;
+&#xD;
+**Requirements:**&#xD;
+- To work with FacturaScripts it need Mysql, MariaDB or PostgreSQL&#xD;
+- Default acces data is:&#xD;
+ user: admin&#xD;
+ password: admin</Overview>
+  <Category>Cloud: Productivity:</Category>
+  <WebUI>http://[IP]:[PORT:80]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/UnRAIDES/templates-UnRAID/main/icons/facturascripts-icon.png</Icon>
+  <ExtraParams>--restart=always</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1654185130</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Port" Target="80" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">31000</Config>
+  <Config Name="Appdata" Target="/var/www/html" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/facturascripts/www</Config>
+</Container>
