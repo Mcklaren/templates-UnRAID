@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/124373-support-unraides-facturascripts/</Support>
   <Project>https://facturascripts.com/</Project>
   <Overview>FacturaScripts is an accounting, billing and CRM program with it you can manage the day to day of your company: invoices, receipts, expenses, budgets, orders, delivery notes, inventory...&#xD;
 And it can be extended and new functions can be added thanks to the plugin catalog.&#xD;
@@ -19,7 +19,7 @@ And it can be extended and new functions can be added thanks to the plugin catal
  password: admin</Overview>
   <Category>Cloud: Productivity:</Category>
   <WebUI>http://[IP]:[PORT:80]</WebUI>
-  <TemplateURL/>
+  <TemplateURL>https://raw.githubusercontent.com/UnRAIDES/templates-UnRAID/main/templates/FacturaScripts.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/UnRAIDES/templates-UnRAID/main/icons/facturascripts-icon.png</Icon>
   <ExtraParams>--restart=always</ExtraParams>
   <PostArgs/>
