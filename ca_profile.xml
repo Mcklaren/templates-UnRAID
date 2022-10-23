@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maintainer>
+<Icon>https://raw.githubusercontent.com/UnRAIDES/plugin-UnRAID/main/LOGO-profile.png</Icon>
+<Profile>
+	Enthusiastic UnRAIDERS creating docker templates and plugins to ease installation for users.
+</Profile>
+<Video>https://www.youtube.com/unraides</Video>
+<Discord>https://discord.gg/baBwJfAhMq</Discord>
+<Twitter>https://twitter.com/unraides</Twitter>
+<WebPage>https://www.unraid.es</WebPage>
+</Maintainer>
